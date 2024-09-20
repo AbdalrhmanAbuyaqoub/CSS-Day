@@ -1,0 +1,41 @@
+@import "./base.css";
+.speaker__container > * {
+  margin: 0;
+  padding: 0;
+}
+.speaker__container {
+  width: 500px;
+}
+.speakers__title {
+  font-size: 98px;
+  font-weight: 700;
+  margin-bottom: 100px;
+}
+.speaker__photo {
+  height: 310px;
+  width: 310px;
+  margin-bottom: 36px;
+  object-fit: cover;
+}
+.speaker__photo--top {
+  object-position: top;
+}
+.speaker__name {
+  font-size: 32px;
+  font-weight: 700;
+  margin-bottom: 32px;
+}
+.speaker__company {
+  color: var(--text-color-black);
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 32px;
+}
+.speaker__bio {
+  color: var(--text-color-black);
+}
+.speakers__container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 150px;
+}
