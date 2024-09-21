@@ -65,3 +65,18 @@
   padding: 150px 150px 0 150px;
   margin-bottom: 100px;
 }
+
+/* ........................responsive */
+@media (max-width: 1260px) {
+  .main {
+    padding: 130px 90px 90px 90px;
+  }
+}
+
+@media (max-width: 515px) {
+  .main {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 100px;
+  }
+}

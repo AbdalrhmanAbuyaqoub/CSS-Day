@@ -3,10 +3,7 @@
   margin: 0;
   padding: 0;
 }
-.main {
-  padding: 150px 150px 0 150px;
-  margin-bottom: 100px;
-}
+
 .main__content {
   margin: 0;
   padding: 0;
@@ -42,3 +39,79 @@
 .button:hover {
   outline: var(--color-on-primary) solid 2px;
 }
+
+/* ........................responsive */
+@media (max-width: 1260px) {
+  .main__content {
+    font-size: 90px;
+  }
+  .main .main__date {
+    font-size: 32px;
+  }
+  .button {
+    height: 80px;
+    padding: 0 30px;
+  }
+}
+
+@media (max-width: 940px) {
+  .main__content {
+    font-size: 80px;
+  }
+  .button {
+    font-size: 26px;
+    height: 70px;
+    padding: 0 24px;
+  }
+}
+
+@media (max-width: 860px) {
+  .main__content {
+    font-size: 70px;
+    /* TODO: reduce padding in base.css */
+  }
+  .main .main__date {
+    font-size: 26px;
+  }
+  .button {
+    font-size: 24px;
+  }
+  .button__container {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 725px) {
+  .main__content {
+    font-size: 65px;
+  }
+}
+
+@media (max-width: 680px) {
+  .main__content {
+    font-size: 55px;
+  }
+}
+
+@media (max-width: 515px) {
+  .main__content {
+    font-size: 40px;
+  }
+  .main .main__date {
+    font-size: 20px;
+    margin-bottom: 70px;
+  }
+  .button {
+    font-size: 16px;
+    height: 50px;
+  }
+  .button .button-arrow-icon {
+    height: 20px;
+    width: 20px;
+  }
+}
+
+/*  1- finish this project
+    2- start FEM javascript course
+    3- TOP project
+     */

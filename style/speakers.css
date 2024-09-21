@@ -39,3 +39,77 @@
   grid-template-columns: 1fr 1fr;
   gap: 150px;
 }
+
+@media (max-width: 1350px) {
+  .speakers__container {
+    column-gap: 100px;
+    row-gap: 100px;
+  }
+  .speaker__container {
+    width: 400px;
+  }
+}
+
+@media (max-width: 1000px) {
+  .speakers__container {
+    column-gap: 70px;
+  }
+}
+
+@media (max-width: 950px) {
+  .speakers__container {
+    grid-template-columns: 1fr;
+  }
+  .speaker__container {
+    width: 500px;
+  }
+}
+
+@media (max-width: 630px) {
+  .speakers__title {
+    font-size: 80px;
+    margin-bottom: 50px;
+  }
+  .speaker__container {
+    width: 400px;
+  }
+  .speaker__photo {
+    width: 260px;
+    height: 260px;
+    margin-bottom: 26px;
+  }
+  .speaker__name {
+    font-size: 26px;
+    margin-bottom: 16px;
+  }
+  .speaker__company {
+    font-size: 20px;
+    margin-bottom: 24px;
+  }
+  .speaker__bio {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 500px) {
+  .speakers__title {
+    font-size: 36px;
+    margin-bottom: 50px;
+  }
+  .speaker__photo {
+    width: 170px;
+    height: 170px;
+  }
+  .speaker__name {
+    font-size: 24px;
+  }
+  .speaker__company {
+    font-size: 20px;
+  }
+  .speaker__bio {
+    font-size: 16px;
+  }
+  .speaker__container {
+    width: 310px;
+  }
+}
